@@ -59,3 +59,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Sistema de Gestión de Vacaciones y Permisos - Comfachocó
+
+# Descripción del Proyecto
+Este es un sistema de gestión de vacaciones y permisos desarrollado para la empresa Comfachocó. El sistema permite a los empleados solicitar vacaciones, licencias o permisos, y a los supervisores y recursos humanos (RRHH) aprobar o rechazar estas solicitudes. El sistema incluye dashboards específicos para cada rol, políticas de vacaciones personalizadas por tipo de empleado y funcionalidades para evitar solapamientos de fechas.
+Un sistema web completo para la gestión de menús de restaurantes con interfaz moderna y funcionalidades CRUD completas.
+
+
+# Stack Tecnológico
+## Backend
+* PHP 8.0+: Lenguaje de programación principal
+* Laravel 10: Framework PHP utilizado para el desarrollo rápido de aplicaciones web
+* MySQL 8.0: Sistema de gestión de bases de datos relacional
+* Eloquent ORM: Para la interacción con la base de datos
+* Middleware: Para la autenticación y autorización de usuarios
+## Frontend
+* HTML5: Estructura de las páginas web
+* Tailwind CSS: Framework de utilidades CSS para el diseño de la interfaz
+* Blade: Motor de plantillas de Laravel
+* JavaScript: Para la interactividad del lado del cliente
+* Vite: Herramienta de construcción y desarrollo frontend
+## Desarrollo y Pruebas
+* Composer: Gestor de dependencias de PHP
+* PHPUnit: Framework de pruebas unitarias
+* Pest: Alternativa más expresiva a PHPUnit
+* Git: Sistema de control de versiones
+## Características Principales
+* Sistema de autenticación con roles (empleado, supervisor, RRHH)
+* Gestión de empleados con información personal y profesional
+* Solicitudes de permisos (vacaciones, licencias, permisos)
+* Aprobación/rechazo de solicitudes por parte de supervisores y RRHH
+* Dashboard específico para cada rol con estadísticas relevantes
+* Políticas de vacaciones personalizadas por tipo de empleado
+* Validación de solapamientos de fechas
+* Interfaz responsive para dispositivos móviles
+## Requisitos del Sistema
+* PHP 8.0 o superior
+* MySQL 8.0 o superior
+* Composer
+* Node.js y npm (para el frontend)
